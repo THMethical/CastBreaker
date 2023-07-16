@@ -4,7 +4,7 @@ import os
 import pyfiglet
 from rich import print 
 
-ascii_banner = pyfiglet.figlet_format(" Unterwegs :)")
+ascii_banner = pyfiglet.figlet_format("CastBreaker")
 print(ascii_banner)
 
 def main():
@@ -12,7 +12,6 @@ def main():
 
 
 def menu():
-    #print("************ Fiverr MoneyMaker**************")
     print()
 
     Frage = input("""
@@ -92,5 +91,4 @@ def hacked_video():
 
 
 
-#the program is initiated, so to speak, here
 main()
